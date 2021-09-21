@@ -28,6 +28,7 @@ h1 h2 h3 {
 
 p {
     margin: 0;
+    padding: 10px;
 }
 /*style elements related to the header*/
  header {
@@ -86,8 +87,8 @@ main {
     margin-bottom: 45px;
   }
 /* the following styles pertain to the hero-banner class element */
-  hero-banner {
-    background-image: url("/week-2/advanced-css-project/assets/images/digital-art-numbers-binary-cyberspace-wallpaper-preview.jpg"), linear-gradient(180deg,var(--second)0%, var(--first)100%);
+.hero-banner {
+    background-image: url("/assets/images/digital-art-numbers-binary-cyberspace-wallpaper-preview.jpg"), linear-gradient(180deg,var(--second)0%, var(--first)100%);
     background-color: var(--first);
     height: 285px;
     position: relative;
@@ -107,7 +108,7 @@ main {
 .hero-banner img {
     position: absolute;
     right: 110px;
-    top: 20px;
+    top: 45px;
     height: 185px;
     border-radius: 60px;
 }
@@ -211,3 +212,144 @@ h3 span {
     font-size: 10px;
     line-height: 3;
 }
+
+.refractor {
+    background-image: url("/assets/images/code-refractor.png");
+}
+   
+.css {
+    
+    background-image: url("/assets/images/css-cheatsheet.png");
+    
+}
+ 
+.password {
+    background-image: url(/assets/images/password-generator.jpg);
+   
+}
+
+.github {
+    
+    background-image: url("/assets/images/1*JLYlSLSK8-AZo8gt9UdYqA.jpeg");
+    
+}
+
+.google {
+    background-image: url("/assets/images/google.JPG");
+    
+}
+
+
+.page-section {
+    margin:15px 0;
+    padding: 5px 0;
+    display:flex;
+    flex-direction:column
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.page-section h2 {
+    flex: 0 0 5%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 2px solid var(--first);
+    font-size: 2vw;
+    line-height: 1.2;
+}
+
+.page-section div {
+    flex: 0 0 78%;
+}
+
+.page-section p {
+    margin-bottom: 18px;
+}
+
+.flex-item div:hover {
+    opacity: 1;
+}
+
+
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+}
+.contact address a {
+    color: var(--third);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-image: linear-gradient(270deg, var(--primary) 0% var(--first)100%;
+    background-size: 100% 02em;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+   
+    
+}
+
+.contact address a:hover {
+    background-size: 100% 100%;
+    color: var(--tertiary)
+}
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .page-section > h2,
+    .page-section > div {
+      flex: 0 0 100%;
+    }
+  
+    .page-section > h2 {
+      border-right: none;
+      border-bottom: 4px solid var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex-item,
+    .flex-item:first-child {
+      flex-basis: 100%;
+    }
+  
+    .flex-item:first-child {
+      min-height: 150px;
+    }
+  
+    .hero-banner {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
