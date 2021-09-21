@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--third);
+}
+
+ /* color shortcuts */
+:root {
+    --first: rgba(68, 88, 119, 1);
+    --second: rgba(146, 204, 206, 1);
+    --third: rgba(49,52, 61, 1);
+}
