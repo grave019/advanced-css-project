@@ -10,3 +10,33 @@
     --second: rgba(146, 204, 206, 1);
     --third: rgba(49,52, 61, 1);
 }
+/* following adds style to the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, Sans-serif;
+    color: var(--primary);
+    background-color: var(--light);
+    line-height: 1.5;
+}
+
+h1 h2 h3 {
+
+    margin: 0;
+
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    padding: 15px 6% 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--third);
+    box-shadow: 0 5px 35px rgba(114, 162, 163, 0.4);
+  }
