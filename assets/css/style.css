@@ -190,3 +190,24 @@ main {
 .flex-item h3 {
     font-size: 1.2rem;
 }
+/*styles pertaining to the h3 tags in the flexboxes */
+h3 { 
+    opacity:.75;
+    position: relative;
+    bottom: 2px;
+    width: min-content
+    height: 15px;
+    color: var(--third);
+    background-color: var(--second);
+    padding: 10px;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    line-height: 10%;
+    text-align: left;
+}
+
+h3 span {
+    font-size: 10px;
+    line-height: 3;
+}
