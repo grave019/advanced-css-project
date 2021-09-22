@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, Sans-serif;
-    color: var(--primary);
+    color: var(--first);
     background-color: var(--light);
     line-height: 1.5;
 }
@@ -196,7 +196,7 @@ h3 {
     opacity:.75;
     position: relative;
     bottom: 2px;
-    width: min-content
+    width: min-content;
     height: 15px;
     color: var(--third);
     background-color: var(--second);
@@ -213,6 +213,8 @@ h3 span {
     line-height: 3;
 }
 
+/*styles linking images to grid boxes */
+
 .refractor {
     background-image: url("/assets/images/code-refractor.png");
 }
@@ -224,7 +226,7 @@ h3 span {
 }
  
 .password {
-    background-image: url(/assets/images/password-generator.jpg);
+    background-image: url("/assets/images/password-generator.jpg");
    
 }
 
@@ -244,7 +246,7 @@ h3 span {
     margin:15px 0;
     padding: 5px 0;
     display:flex;
-    flex-direction:column
+    flex-direction:column;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
@@ -252,7 +254,7 @@ h3 span {
 
 .page-section h2 {
     flex: 0 0 5%;
-    text-align: right;
+    text-align: left;
     padding-right: 15px;
     border-right: 2px solid var(--first);
     font-size: 2vw;
@@ -285,20 +287,18 @@ h3 span {
     padding: 5px;
     text-decoration: none;
     font-size: 1.3rem;
-    background-image: linear-gradient(270deg, var(--primary) 0% var(--first)100%;
-    background-size: 100% 02em;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(270deg, var(--first) 0% var(--first);
     background-position: bottom;
     transition: all 0.25s ease-in;
     margin: 0 0.2rem 0.1rem;
-    display: inline-block;
+  
    
     
 }
 
 .contact address a:hover {
     background-size: 100% 100%;
-    color: var(--tertiary)
+    color: var(--third)
 }
 @media screen and (max-width: 980px) {
     header {
@@ -318,14 +318,14 @@ h3 span {
       justify-content: center;
     }
   
-    .page-section > h2,
-    .page-section > div {
+    .page-section  h2,
+    .page-section  div {
       flex: 0 0 100%;
     }
   
-    .page-section > h2 {
+    .page-section  h2 {
       border-right: none;
-      border-bottom: 4px solid var(--primary);
+      border-bottom: 4px solid var(--first);
       margin-bottom: 20px;
       padding-bottom: 10px;
       text-align: left;
@@ -333,14 +333,20 @@ h3 span {
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 500px) {
     .flex-item,
     .flex-item:first-child {
       flex-basis: 100%;
     }
   
+    main h2 {
+        border-top: 2px solid var(--second);
+
+    }
+
     .flex-item:first-child {
       min-height: 150px;
+      min-width: 225px;
     }
   
     .hero-banner {
@@ -352,4 +358,3 @@ h3 span {
       flex-direction: column;
       align-items: flex-start;
     }
-  }
