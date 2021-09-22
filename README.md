@@ -1,37 +1,36 @@
-# code-refractor
-Contents for Code Refractor Project
-Overview
-Benifits of Refractoring
-Project Goals
-Meeting Goals
-Knowledge Gained
-Image of Horiseon Website
-Link to the Web Page
-Credits
-1. Overview
-Refractoring website using semantic elements and simplifying CSS.
 
-2. Benifits of Refractoring
-Refractoring improves the design of a website making it easier to understand and helps to find bugs in the code. This can also make the site run more efficiently.
+# Advanced CSS Portfolio
 
-3. Project Goals
-The goal of this project was to refractor a website using semantic elements and to update the page to make it more universally useful. In this project is stuck to "boyscout rule" of making the code better than when I found it. This means increasing site assessibility. The site in the end should work more efficiently and be easier to read.
+## Overview
 
-4. Meeting Goals
-I simplified the html and CSS and replaced it with semantic code that is easier to read and follow. This project allowed me to grow my skills as a coder. I simplified overyly complex code and fixed internal page links so that the page is more assessable for navigation. I added alt attributes to the images to make the content more assessable. I fixed links in the page to make it easier to navigate. I also added alt descriptions of all images on the page to make the page more assessible.
+## Project Goals
 
-In addition, I replaced div elements with the following semantic elements: -header -footer -main -section -figure -article -aside.
+## Image of CSS Portfolio Site
 
-5. Knowledge Gained
-Using semantic elements made the html code easier to read and allowed . The CSS had repeating style elements that were simplified by using references to semantic elements used in the updated html. I learned a lot through trial and error. I believe this experience has helped me build skills needed to be a great web developer. I am ready to take these skills and apply them to future code refractoring projects.
+## Link to the Web Page
 
-This project is significant because the website code is improved from the greatly from the original website. It should be noted that I frequently pushed my work to github with comments. I pushed my work to github over 40 times. I believe this shows I am actively working to become a better coder.
+## Credits
 
-6. Image of Horiseon Website
-Image of the Horiseon complete website
+### 1.Overview
 
-7. Link to the Web Page
-Click the following link to visit the website Horiseon Refractored Code
+Creating a portfolio page to showcase future projects.
 
-8. Credits
-Thank you for taking the time to view my code refractor project. If you have any ideas on how to make the website better please feel free to submit a pull request.
+### 2.Meeting Goals
+
+Today more and more people are using phones or tablets to search the web. In order to keep up the new wave of handheld technology. Websites need to be written to showcase information on a smaller screen. With advanced CSS you can have optically pleasing pages that format the page to give the user a easier way to navigate the page. In my project I used pseudo elements and psuedo classes such as hover and first child to give my flex boxes a visually appealing style that animates the images. In addition, I arranged the flexboxes to appear different when viewing in a larger screen and the boxes are arranged in single collumn format to provide easier use for mobile users. All links in the page work and redirect you to other projects. Please note that there are placeholders on the page because the page will be updated in the future to showcase more projects.
+
+All links are currently working on the web page. A CSS reset was used and linked before the first CSS style sheet to help better loading across different browsers. Using the flexbox style my page looks differently in a desktop vs mobile browser due to implementing styling using @ for setting width at a different number of pixels. I will continue to update this page to make it run more efficiently in the future.
+
+### 3. Image of the live portfolio web page on github
+
+(advanced-css-project/assets/images/web-page.png)
+
+### 4. Click the following link below to visit the CSS
+
+#### Advanced CSS Portfolio Page
+
+<https://grave019.github.io/advanced-css-project/>
+
+### 5. Credits
+
+Thank you for taking the time to view my portfolio project. If you have any ideas on how to make the website better please feel free to submit a pull request.
