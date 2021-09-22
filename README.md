@@ -4,9 +4,11 @@
 
 ## Project Goals
 
-## Image of CSS Portfolio Site
+## Preview of My Page
 
 ## Link to the Web Page
+
+## Credits
 
 ### 1.Overview
 
@@ -18,9 +20,13 @@ Today more and more people are using phones or tablets to search the web. In ord
 
 All links are currently working on the web page. A CSS reset was used and linked before the first CSS style sheet to help better loading across different browsers. Using the flexbox style my page looks differently in a desktop vs mobile browser due to implementing styling using @ for setting width at a different number of pixels. I will continue to update this page to make it run more efficiently in the future.
 
-### 3. Click the following link below to visit the CSS
+### 3. Preview of My Page
 
-### Advanced Portfolio Page.
+![My Page1](assets/images/web-page.png)
+![My Portfolio](assets/images/Screen%20Shot%202021-09-21%20at%2010.16.14%20PM.png)
+![My PAGE](assets/images/Screen%20Shot%202021-09-21%20at%2010.16.30%20PM.png)
+
+### 4. Click the following link below to the visit the CSS Page
 
 <https://grave019.github.io/advanced-css-project/>
 
