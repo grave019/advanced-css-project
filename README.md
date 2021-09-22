@@ -27,11 +27,11 @@ Using semantic elements made the html code easier to read and allowed . The CSS 
 
 This project is significant because the website code is improved from the greatly from the original website. It should be noted that I frequently pushed my work to github with comments. I pushed my work to github over 40 times. I believe this shows I am actively working to become a better coder.
 
-6. Image of Horiseon Website
-Image of the Horiseon complete website
-
+6. Image of the live portfolio web page on github...
+   (./assets/images/web-page.png)
 7. Link to the Web Page
-Click the following link to visit the website Horiseon Refractored Code
+Click the following link below to visit the CSS Advanced Portfolio Page.
+https://grave019.github.io/advanced-css-project/
 
 8. Credits
 Thank you for taking the time to view my code refractor project. If you have any ideas on how to make the website better please feel free to submit a pull request.
