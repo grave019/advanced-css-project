@@ -24,13 +24,22 @@ All links are currently working on the web page. A CSS reset was used and linked
 
 ### 3. Reflection
 
-Currently my page does not function how I would like it to. I plan on troubleshooting my page in the future and get a better grasp on the concepts of advanced CSS. I believe I am on the right track but still need work on my skills. I know I can accomplish this though additional hard work and refractoring my page. 
+Currently my page does not function how I would like it to. I plan on troubleshooting my page in the future and get a better grasp on the concepts of advanced CSS. I believe I am on the right track but still need work on my skills. I know I can accomplish this though additional hard work and refractoring my page. I look forward to resubmitting my work to continue to get better.
 
-### 3. Preview of My Page
+### 3. Preview of My Page Currently
 
 ![My Page1](assets/images/web-page.png)
 ![My Portfolio](assets/images/Screen%20Shot%202021-09-21%20at%2010.16.14%20PM.png)
 ![My PAGE](assets/images/Screen%20Shot%202021-09-21%20at%2010.16.30%20PM.png)
+
+## As you can see my page is not loading the images to git hub correctly even though they are linked correctly. Here are the images displayed locally on my computer.
+![local page 1](assets/images/local-1.png)
+![local page 2](assets/images/local-2.png)
+![local page 3](assets/images/local-3.png)
+![mobile 1](assets/images/web-screen-1.png)
+![mobile 2](assets/images/web-screen-2.png)
+![mobile 3](assets/images/web-screen-3.png)
+![mobile 4](assets/images/web-screen-4.png)
 
 ### 4. Click the following link below to the visit the CSS Page
 
