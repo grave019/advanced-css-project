@@ -217,23 +217,24 @@ h3 span {
 
 .refractor {
     background-image: url("/assets/images/code-refractor.png");
+    background-repeat: no-repeat;
 }
    
 .css {
     
     background-image: url("/assets/images/css-cheatsheet.png");
-    
+    background-repeat: no-repeat;
 }
  
 .password {
-    background-image: url("/assets/images/password-generator.jpg");
-   
+    background-image: url("/assets/images/passwordgenerator.jpg");
+    background-repeat: no-repeat;
 }
 
 .github {
     
-    background-image: url("/assets/images/1*JLYlSLSK8-AZo8gt9UdYqA.jpeg");
-    
+    background-image: url("/assets/images/github-homescreen.png");
+    background-repeat: no-repeat;
 }
 
 .google {
